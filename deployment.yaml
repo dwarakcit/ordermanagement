@@ -17,3 +17,5 @@ spec:
         image: dwarakacr.azurecr.io/ordermanagement:latest
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: acr-credentials
